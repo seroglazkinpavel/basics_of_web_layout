@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+/*Start home_page*/
+
+.meun_bar {
+    margin-top: 40px;
+    margin-left: 375px;
+}
+
+.text_grow {
+    color: rgba(0, 0, 0, 1);
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.text_be {
+    color: rgba(242, 88, 34, 1);
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.home_page_menu {
+    margin-left: 346px;
+}
+
+.menu_link {
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1)
+}
+
+.menu_button {
+    padding: 12px 27px;
+    background: #F25822;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+    margin-left: 34px;
+}
+
+.home_meta {
+    width: 543px;
+    margin-top: 143px;
+    margin-left: 352px;
+    padding-left: 21px;
+}
+
+.home_meta_title {
+    font-size: 60px;
+    line-height: 70px;
+    color: #000000;
+}
+
+.subtitle {
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    margin-top: 17px;
+    margin-bottom: 37px; 
+}
+
+.meta_button {
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 27px;
+}
+
+.home_meta_button_video {
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+}
+
+.watch_video {
+    margin-left: 15px;
+}
+/*End home_page*/
+.brand_logo {
+    margin-top: 97px;
+    margin-left: 345px;
+    margin-bottom: 96px;
+}
+/*Start brand*/
+
+/*End brand*/
