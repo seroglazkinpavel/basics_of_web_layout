@@ -1,0 +1,230 @@
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Semibold.eot);
+    src: local('Gilroy Semibold'), local('Gilroy-Semibold'),
+        url(../fonts/gilroy/Gilroy-Semibold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/gilroy/Gilroy-Semibold.woff2) format('woff2'),
+        url(../fonts/gilroy/Gilroy-Semibold.woff) format('woff'),
+        url(../fonts/gilroy/Gilroy-Semibold.ttf) format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Bold.eot);
+    src: local('Gilroy-Bold'), local('Gilroy-Bold'),
+        url(../fonts/gilroy/Gilroy-Bold.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/gilroy/Gilroy-Bold.woff2) format('woff2'),
+        url(../fonts/gilroy/Gilroy-Bold.woff) format('woff'),
+        url(../fonts/gilroy/Gilroy-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: Gilroy;
+    src: url(../fonts/gilroy/Gilroy-Medium.eot);
+    src: local('Gilroy-Medium'), local('Gilroy-Medium'),
+        url(../fonts/gilroy/Gilroy-Medium.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/gilroy/Gilroy-Medium.woff2) format('woff2'),
+        url(../fonts/gilroy/Gilroy-Medium.woff) format('woff'),
+        url(../fonts/gilroy/Gilroy-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+body {
+    font-family: Gilroy;
+    color: rgba(0, 0, 0, 1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.home_page {
+    margin: 40px 0 0 0;
+}
+
+.center {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+/*Start home_page*/
+
+.meun_bar {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 83px 0;
+    
+}
+
+.home_page_logo {
+    max-width: 137px;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+    width: 100%;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 28px;
+    /*color: rgba(0, 0, 0, 1);*/
+    text-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  }
+
+.text_be {
+    color: rgba(242, 88, 34, 1);
+}
+
+.home_page_menu {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+}
+
+.menu_list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.menu_link {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(0, 0, 0, 1)
+}
+
+.menu_link:hover {
+    color:rgba(242, 88, 34, 1)
+}
+
+.menu_link:active {
+    color:rgba(242, 88, 34, 1)
+}
+
+.nav_link {
+    position: relative;
+}
+
+.nav_link::after {
+    content: "";
+    display: block;
+    width: 6px;
+    height: 3px;
+    position: absolute;
+    top: 7px;
+    right: -10px;
+    background: no-repeat center url('https://i.postimg.cc/Tw1KFff6/icon.png');
+    background-size: cover;
+}
+.menu_button {
+    padding: 12px 27px;
+    background: #F25822;
+    border-radius: 30px;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    border: none;
+}
+
+/*--Start top-info center--*/
+.top-info {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 41px;
+    
+}
+
+.home_meta {
+    max-width: 543px;
+    margin: 30px 0 0 0;
+}
+
+.home_meta_title {
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: bold;
+    margin: 0 0 17px 0;
+}
+
+.subtitle {
+    max-width: 466px;
+    font-size: 20px;
+    line-height: 23px;
+    color: #888888;
+    font-weight: 500;
+    margin: 0 0 37px 0; 
+}
+
+.home_meta_button {
+    display: flex;
+    gap: 27px;
+}
+
+.meta_button {
+    padding: 15px 35px;
+    background: #F25822;
+    box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
+    border-radius: 50px;
+    font-size: 15px;
+    line-height: 18px;
+    color: #FFFFFF;
+    border: none;
+}
+
+.home_meta_button_video {
+    font-size: 15px;
+    line-height: 18px;
+    color: #AAAAAA;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 15px;
+}
+
+.top_img {
+    max-width: 545px;
+}
+
+.top_img img {
+    width: 100%;
+    height: 100%;
+}
+/*--end top-info center--*/
+/*End home_page*/
+
+/*Start brand*/
+.brand {
+    margin: 103px 0 0 0;
+}
+
+.brand_logo {
+    display: flex;
+    gap: 48px;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 97px 0 96px;
+    box-sizing: border-box;
+    
+}
+/*End brand*/
