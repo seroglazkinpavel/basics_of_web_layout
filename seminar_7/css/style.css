@@ -557,11 +557,11 @@ ul {
 
     .offers_item {
         /*max-width: 232.392px;*/
-        /*min-height: 167px;*/
+        min-height: 167px;
     }
 
     .offers_item:last-child {
-        /*min-height: 116.043px;*/
+        min-height: 116.043px;
     }
 
     .featured {
