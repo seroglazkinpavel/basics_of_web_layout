@@ -581,6 +581,7 @@ ul {
 @media (max-width: 767px) {
     .wrapper_header {
         padding: 0 16px;
+        box-sizing: border-box;
     }
 
     .user_btn, .cart_btn {
@@ -656,11 +657,21 @@ ul {
     .featured_list {
         margin: 0 auto 24px;
         padding: 0 8px ;
+        box-sizing: border-box;
     }
 
 }
  @media (max-width: 360px) {
-    .offers_item {
+    .offers_item,
+    .featured_item {
         max-width: 320px;
+    }
+
+    .offers_item:last-child {
+        width: 320px;
+    }
+    
+    .offers_list, .featured_list {
+        padding: 0;
     }
 }
